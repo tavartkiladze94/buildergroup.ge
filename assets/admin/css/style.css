@@ -1,0 +1,122 @@
+
+   .paginationn {
+  display: inline-block;
+}
+
+.paginationn a {
+  color: black;
+  float: left;
+  padding: 5px 9px;
+  text-decoration: none;
+}
+
+.paginationn a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.paginationn a:hover:not(.active) {background-color: #ddd;}
+    svg, .header-navbar .navbar-container ul.navbar-nav li i.ficon, .header-navbar .navbar-container ul.navbar-nav li 
+    {
+      color:white;
+    }
+     svg.ficon, .collapse-toggle-icon
+    {
+        color:white!important;
+    }
+    .dropdown-menu-right a
+    {
+        color:white;
+    }
+    span
+    {
+        color:white;
+    }
+     span .select2-results
+    {
+        color:black;
+    }
+    .navigation-main .nav-item a span
+    {
+      color:white;
+    }
+    .feather .feather-file-text
+    {
+      color:white;
+    }
+    
+    ::after{
+      color:white;
+    }
+    .main-menu .navigation li.has-sub>a:after
+    {
+      background-image:url('<?=base_url();?>assets/images/icons/angle_down.png');
+    }
+    .main-menu.menu-light .navigation>li.open:not(.menu-item-closing)>a, .main-menu.menu-light .navigation>li.sidebar-group-active>a, .main-menu.menu-light .navigation>li ul .open>a
+    {
+      background-color:red;
+    }
+    label
+    {
+        color:black;
+    }
+    i
+    { color:black;}
+    .nav-item:hover
+    {
+        cursor: pointer;
+    }
+   .dropdown-menu 
+    {
+        background-color: #10163A!important;
+    }
+    span.ql-picker-item
+    {
+        color:black;
+    }
+    span.ql-picker-item, span.ql-picker-label
+    {
+        color:black;
+    }
+.divv{
+					width:100%; 
+					height:380px; 
+					
+				}
+				.div_table{
+                    width:50%;
+                    float:left;
+				}
+			
+				table{
+					width:100%;
+					color:blue;
+					border:none;
+					background-color:white;
+				}
+				table tr td{
+					height:40px;
+                    padding-left: 10px;
+                    color:green;
+                    border: none;
+
+				}
+				td{
+					color:red;
+					
+				}
+				@media (max-width: 1200px)
+                {
+                    .divv
+                    {
+					width:100%; 
+					height:700px; 
+					
+				    }
+                    .div_table
+                    {
+                        width:100%;
+                        
+                    }
+                }
+			
