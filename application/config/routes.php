@@ -51,14 +51,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['admin/index'] = 'Admin/index';
 */
 
-$route['upload'] = 'upload/index';
-$route['main/contenttt'] = 'main/contenttt';
-$route['admin/login'] = 'admin/login';
 
 $route['default_controller'] = 'main/index';
 $route['404_override'] = '';
 
-$route['email'] = 'main/adduser';
 $route['translate_uri_dashes'] = FALSE;
 
 
